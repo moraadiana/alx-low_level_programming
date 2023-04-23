@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main -A program that prints the size of various types
- * based on the computer it is compiled and run on 
+ * based on the computer it is compiled and run on
  * Return 0 (success)
  */
-int main(void)	
+int main(void)
 {
 	char a;
 	int b;
