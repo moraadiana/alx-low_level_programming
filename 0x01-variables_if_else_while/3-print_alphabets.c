@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main  - program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
+ * main  - program that prints the alphabet in lowercase and uppercase
  * Return: o is for sucess
  */
 int main(void)
 {
 	char x;
-	
+
 	for (x = 'a'; x <= 'z'; x++)
 	putchar(x);
 
