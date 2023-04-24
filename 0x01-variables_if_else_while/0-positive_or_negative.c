@@ -4,6 +4,9 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Positive anything is better than negative nothing
+ * Return - 0 signifying program success
 int main(void)
 {
 	int n;
