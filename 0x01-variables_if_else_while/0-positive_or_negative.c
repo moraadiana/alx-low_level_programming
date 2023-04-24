@@ -7,6 +7,7 @@
 /**
  * main - Positive anything is better than negative nothing
  * Return - 0 signifying program success
+ */
 int main(void)
 {
 	int n;
