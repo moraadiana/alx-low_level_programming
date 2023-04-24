@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
 * main -  The last digit
-* Return - 0 signifying program success
+* Return - 0 means success
 */
 int main(void)
 {
