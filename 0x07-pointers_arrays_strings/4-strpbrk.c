@@ -2,7 +2,7 @@
 /**
  * _strpbrk -  function that searches a string
  * for any of a set of bytes
- * @*s: string
+ * @s: string
  * @accept: input
  * Return: 0 for success
  */
