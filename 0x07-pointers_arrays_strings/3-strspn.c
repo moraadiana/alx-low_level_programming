@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn -  a function that gets the length of a
+ * _strspn - a function that gets the length of a
  * prefix substring.
  * @s: string
  * @accept: input
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 			a++;
 			break;
 			}
-			else if (accept[b + 1] == '0'
+			else if (accept[b + 1] == '\0'
 					return (0);
 		}
 		s++;
