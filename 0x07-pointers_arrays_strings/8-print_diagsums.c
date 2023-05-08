@@ -19,5 +19,5 @@ void print_diagsums(int *a, int size)
 	{
 		sum2 += a[x * size + (size - x - 1)];
 	}
-	print("%d,%\n" sum1, sum2);
+	print("%d,%d\n" sum1, sum2);
 }
