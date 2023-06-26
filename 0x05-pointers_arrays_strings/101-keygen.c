@@ -6,21 +6,18 @@
 
 int main(void)
 {
-    char password[PASSWORD_LENGTH];
-    int i, ascii;
+	char password[PASSWORD_LENGTH];
+	int i, ascii;
 
-    srand(time(NULL));
-
-    for (i = 0; i < PASSWORD_LENGTH - 1; i++)
-    {
-        ascii = rand() % 94 + 33; // Generate ASCII values from 33 to 126 (printable characters)
-        password[i] = (char)ascii;
-    }
-
-    password[PASSWORD_LENGTH - 1] = '\0'; // Add null terminator
-
-    printf("%s\n", password);
-
-    return 0;
+	srand(time(NULL));
+	for (i = 0; i < PASSWORD_LENGTH - 1; i++)
+	{
+		ascii = rand() % 94 + 33;
+		password[i] = (char)ascii;
+	}
+	
+	password[PASSWORD_LENGTH - 1] = '\0';
+	printf("%s\n", password);
+	return 0;
 }
 

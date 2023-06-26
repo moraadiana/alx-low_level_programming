@@ -7,14 +7,10 @@
 
 int _atoi(char *s)
 {
-    int sign = 1; // Sign of the number, default is positive
-    int result = 0; // Accumulator for the converted number
-
-    // Skip leading white spaces
+    int sign = 1;
+    int result = 0;
     while (*s == ' ')
         s++;
-
-    // Check for sign
     if (*s == '-')
     {
         sign = -1;
@@ -25,7 +21,6 @@ int _atoi(char *s)
         s++;
     }
 
-    // Convert each digit
     while (*s != '\0' && (*s >= '0' && *s <= '9'))
     {
         int digit = *s - '0';
