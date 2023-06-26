@@ -9,20 +9,16 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int x, y;
+    char *ptr = dest;
 
-	x = 0;
+    while (*src != '\0')
+    {
+        *dest = *src;
+        dest++;
+        src++;
+    }
 
-	while (src[x] != '\0')
-	{
-		x++;
-	}
+    *dest = '\0'; // Add the terminating null byte
 
-	for (y = 0; y < len; y++)
-	{
-		dest[y] = src[y];
-	}
-	dest[y] = '\0';
-
-	return (dest);
+    return ptr;
 }
