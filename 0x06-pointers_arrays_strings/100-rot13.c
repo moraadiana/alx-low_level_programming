@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * char *rot13(char *) -  encodes a string using rot13
- * return: str
+ * *rot13(char *) -  encodes a string using rot13
+ * Return: Encoded string
+ * @str: string
  */
 
 char *rot13(char *str)
@@ -23,5 +24,5 @@ char *rot13(char *str)
 			}
 		}
 	}
-	return str;
+	return (str);
 }
